@@ -3,3 +3,4 @@ tests/tmp
 vendor
 coverage.xml
 composer.lock
+.idea
