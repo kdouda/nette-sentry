@@ -134,10 +134,6 @@ class SentryLogger extends Logger
     private function tracyPriorityToSentrySeverity(string $priority): ?Severity
     {
         switch ($priority) {
-            case ILogger::DEBUG:
-                return Severity::debug();
-            case ILogger::INFO:
-                return Severity::info();
             case ILogger::WARNING:
                 return Severity::warning();
             case ILogger::ERROR:
